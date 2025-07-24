@@ -3,10 +3,10 @@ ExtensionType: 2
 Name: Formatify: Request Converter
 RepoName: formatify
 ScreenVersion: 1.2.0
-SerialVersion: 1
+SerialVersion: 2
 MinPlatformVersion: 0
 ProOnly: False
-Author: dr34mhacks
+Author: Siddharth Joshi
 ShortDescription: Convert HTTP requests and responses into various formats like cURL or Python code for easy reuse.
 EntryPoint: formatify.py
 BuildCommand: 
