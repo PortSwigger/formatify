@@ -1,0 +1,13 @@
+Uuid: 61672f07da6b4091a2915490803b1ec2
+ExtensionType: 2
+Name: Formatify: Request Converter
+RepoName: formatify
+ScreenVersion: 1.2.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: dr34mhacks
+ShortDescription: Formatify is a Burp Suite extension for converting HTTP requests into multiple formats such as cURL, Python, and PowerShell, thereby streamlining request replication and payload crafting.
+EntryPoint: formatify.py
+BuildCommand: 
+SupportedProducts: Pro, Community
