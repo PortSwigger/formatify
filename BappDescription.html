@@ -1,34 +1,18 @@
-Formatify is a Burp Suite extension that converts HTTP requests into a variety of formats instantly. These include cURL, Python, PowerShell, JavaScript, and more. Designed to cater to the needs of pentesters and developers, Formatify takes away the need to use multiple extensions. With seamless Burp Suite integration, a user-friendly interface, and the ability to convert with a single click, Formatify is a time-saving and efficiency-boosting tool for security testing.
+<p>This extension provides a user-friendly interface for converting HTTP requests and responses between various formats, making it easier to analyze or reuse them in different tools or contexts. It simplifies the process of generating code snippets or transformed representations directly from Burp Suite.</p>
 
 <h2>Features</h2>
-Formatify has several notable features including:
-
 <ul>
-<li>Convert HTTP requests to multiple formats such as JavaScript Fetch, cURL Command, Python Requests, Python aiohttp, Node.js Axios, Go HTTP, PowerShell Invoke-WebRequest, FFUF Command (for fuzzing), Java OkHttp, CSRF Payload Builder, and CORS Exploit Proof of Concept.</li>
-
-<li>Seamless integration with Burp Suite Intruder & Repeater</li>
-
-<li>Context menu support, allowing for conversion of requests in just two clicks</li>
-
-<li>A dedicated UI Tab for easy pasting, conversion, and copying of request data</li>
-
-<li>Optimized for performance and runs in the background</li>
+  <li>Convert requests and responses into multiple formats (e.g., raw, cURL, Python requests)</li>
+  <li>Supports both HTTP and HTTPS</li>
+  <li>Automatic extraction of headers and body content</li>
+  <li>Customizable output formats</li>
+  <li>Accessible via a context menu within Burp Suite</li>
 </ul>
 
 <h2>Usage</h2>
-
-To use Formatify through the context menu, follow these steps:
-
-<ul>
-<li>In Burp Suites Repeater or Intruder, right-click on a request.</li>
-
-<li>Select Send to Formatify from the context menu.</li>
-
-<li>The request will appear in the Formatify tab.</li>
-
-<li>Choose a format from the dropdown.</li>
-
-<li>Click Formatify to generate the converted request.</li>
-</ul>
-
-Formatify helps you save time and increase efficiency by converting any request format instantly. It automates CORS PoCs & CSRF Payloads, speeds up fuzzing with FFUF Command Generation, and most importantly, lets you spend less time copying requests and more time hacking!
+<ol>
+  <li>Right-click on a request or response in Burp Suite.</li>
+  <li>Select <code class="InlineCode">Formatify &rarr; Convert</code> from the context menu.</li>
+  <li>Choose the desired output format from the available options.</li>
+  <li>The converted content will be displayed in a pop-up or output window for easy copying.</li>
+</ol>
