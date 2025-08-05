@@ -1,18 +1,26 @@
-<p>This extension provides a user-friendly interface for converting HTTP requests and responses between various formats, making it easier to analyze or reuse them in different tools or contexts. It simplifies the process of generating code snippets or transformed representations directly from Burp Suite.</p>
+<p>Formatify converts HTTP requests into multiple code formats including JavaScript Fetch, cURL, Python Requests, Go,
+  PowerShell, and specialized security testing formats. This all-in-one extension eliminates the need for multiple
+  request conversion tools by providing comprehensive format support in a single interface.</p>
 
 <h2>Features</h2>
 <ul>
-  <li>Convert requests and responses into multiple formats (e.g., raw, cURL, Python requests)</li>
-  <li>Supports both HTTP and HTTPS</li>
-  <li>Automatic extraction of headers and body content</li>
-  <li>Customizable output formats</li>
-  <li>Accessible via a context menu within Burp Suite</li>
+  <li>Convert requests to JavaScript Fetch, cURL, Python Requests, Python aiohttp, Node.js Axios, Go http, PowerShell,
+    Java OkHttp formats</li>
+  <li>Generate FFUF commands for fuzzing workflows</li>
+  <li>Create CSRF payload builders with automatic HTML form generation</li>
+  <li>Build CORS exploit proof-of-concept code</li>
+  <li>Context menu integration with Repeater and Intruder</li>
+  <li>Dedicated tab interface for manual request input and conversion</li>
+  <li>Copy to clipboard and save to file functionality</li>
+  <li>Background processing with threading support</li>
 </ul>
 
 <h2>Usage</h2>
 <ol>
-  <li>Right-click on a request or response in Burp Suite.</li>
-  <li>Select <code class="InlineCode">Formatify &rarr; Convert</code> from the context menu.</li>
-  <li>Choose the desired output format from the available options.</li>
-  <li>The converted content will be displayed in a pop-up or output window for easy copying.</li>
+  <li>In Repeater or Intruder, right-click on any HTTP request</li>
+  <li>Select "Send to Formatify" from the context menu</li>
+  <li>Navigate to the Formatify tab to view the imported request</li>
+  <li>Choose your desired output format from the dropdown menu</li>
+  <li>Click "Formatify!" to generate the converted code</li>
+  <li>Use "Copy to Clipboard" or "Save to File" to export the result</li>
 </ol>
