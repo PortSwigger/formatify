@@ -3,7 +3,7 @@ ExtensionType: 2
 Name: Formatify: Request Converter
 RepoName: formatify
 ScreenVersion: 1.4.0
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 2
 ProOnly: False
 Author: Siddharth Joshi
